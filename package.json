@@ -1,0 +1,39 @@
+{
+  "name": "NodeJsService",
+  "description": "REST CRUD Example Node.js & Mysql",
+   "repository": "https://github.com/PoojaKalange/nodeappcompu",    
+  "version": "0.0.1",
+  "private": true,
+  "main": "serverB.js",
+  "dependencies": {
+    "body-parser": "1.9.0",
+    "cors": "^2.3.1",
+    "dotenv": "^0.2.8",
+    "ejs": "^1.0.0",
+    "every-moment": "0.0.1",
+    "express": "4.9.5",
+    "express-jwt": "^0.2.1",
+    "express-myconnection": "*",
+    "express-validator": "^2.6.0",
+      "nodemailer": "~0.7.1",
+    "mysql": "*"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "scripts":
+  {
+    "start": "node serverB.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PoojaKalange/nodeappcompu"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
+

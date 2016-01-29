@@ -1,0 +1,7 @@
+{
+  "name": "NodeJsService",
+  "description": "REST CRUD Example Node.js & Mysql",
+   "repository": "https://github.com/PoojaKalange/nodeappcompu",
+  "keywords": ["node", "express", "static"],
+
+}
