@@ -757,7 +757,7 @@ function sportdetail()
 			
 			//var res=spdata.filter(sportdetail);
 			
-			var ref=new firebase('https://syncnode.firebaseio.com/sport');
+			var ref=new firebase('https://syncfire.firebaseio.com/sport');
 			//ref.set({db:"1"});
 			ref.update(spdata[0]);	
 			console.log('result is',spdata[0]);
